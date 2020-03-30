@@ -12,7 +12,7 @@ public class Listing_20_02 {
 
         Iterator<String> iterator = collection.iterator();
         while (iterator.hasNext()){
-            System.out.println(iterator.next().toUpperCase() + " ");
+            System.out.print(iterator.next().toUpperCase() + " ");
         }
         System.out.println();
     }
