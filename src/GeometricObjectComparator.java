@@ -1,7 +1,7 @@
 import java.io.Serializable;
 import java.util.Comparator;
 
-public class Listing_20_05 implements Comparator<GeometricObject>, Serializable {
+public class GeometricObjectComparator implements Comparator<GeometricObject>, Serializable {
     public int compare(GeometricObject o1, GeometricObject o2) {
         double area1 = o1.getArea();
         double area2 = o2.getArea();
