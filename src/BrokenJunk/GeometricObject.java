@@ -1,3 +1,5 @@
+package BrokenJunk;
+
 import java.util.Date;
 
 public abstract class GeometricObject {
